@@ -12,5 +12,7 @@ pytest --language=es --browser_name=Firefox test_items.py
 Пример с параметрами: pytest -s -v --tb=line test_parser.py
 <br>
 --tb=line - чтобы сократить лог с результатами теста
+<br>
 -s - выводить результат работы команды print()
+<br>
 -v - подробная информация о прохождении тестов
